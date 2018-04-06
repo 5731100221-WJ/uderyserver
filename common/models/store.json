@@ -38,6 +38,21 @@
       "type": "hasMany",
       "model": "menuList",
       "foreignKey": ""
+    },
+    "menuitems": {
+      "type": "hasMany",
+      "model": "menuitem",
+      "foreignKey": ""
+    },
+    "proteinitems": {
+      "type": "hasMany",
+      "model": "proteinitem",
+      "foreignKey": ""
+    },
+    "toppingitems": {
+      "type": "hasMany",
+      "model": "toppingitem",
+      "foreignKey": ""
     }
   },
   "acls": [],
