@@ -12,7 +12,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "registerCustommer": {
+      "type": "belongsTo",
+      "model": "registerCustommer",
+      "foreignKey": ""
+    },
+    "store": {
+      "type": "belongsTo",
+      "model": "store",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

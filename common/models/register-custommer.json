@@ -34,7 +34,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "orderlists": {
+      "type": "hasMany",
+      "model": "orderlist",
+      "foreignKey": ""
+    },
+    "storereviews": {
+      "type": "hasMany",
+      "model": "storereview",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

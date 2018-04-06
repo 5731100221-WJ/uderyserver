@@ -1,5 +1,5 @@
 {
-  "name": "proteinitem",
+  "name": "menuitem",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

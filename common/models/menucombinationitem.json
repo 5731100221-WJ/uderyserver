@@ -23,7 +23,28 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "proteinitems": {
+      "type": "hasMany",
+      "model": "proteinitem",
+      "foreignKey": ""
+    },
+    "menuList": {
+      "type": "belongsTo",
+      "model": "menuList",
+      "foreignKey": ""
+    },
+    "menuitems": {
+      "type": "hasMany",
+      "model": "menuitem",
+      "foreignKey": ""
+    },
+    "toppingitems": {
+      "type": "hasMany",
+      "model": "toppingitem",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

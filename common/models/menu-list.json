@@ -1,27 +1,20 @@
 {
-  "name": "proteinitem",
+  "name": "menuList",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "price": {
-      "type": "number",
-      "required": true
-    },
-    "picture": {
-      "type": "string"
-    }
-  },
+  "properties": {},
   "validations": [],
   "relations": {
+    "stores": {
+      "type": "hasOne",
+      "model": "store",
+      "foreignKey": ""
+    },
     "menucombinationitems": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "menucombinationitem",
       "foreignKey": ""
     }

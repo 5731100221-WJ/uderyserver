@@ -18,7 +18,28 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "orderlists": {
+      "type": "hasMany",
+      "model": "orderlist",
+      "foreignKey": ""
+    },
+    "storeOwner": {
+      "type": "belongsTo",
+      "model": "storeOwner",
+      "foreignKey": ""
+    },
+    "storereviews": {
+      "type": "hasMany",
+      "model": "storereview",
+      "foreignKey": ""
+    },
+    "menuLists": {
+      "type": "hasMany",
+      "model": "menuList",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

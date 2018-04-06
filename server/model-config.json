@@ -65,5 +65,17 @@
   "proteinitem": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "menuitem": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "toppingitem": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "menuList": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
