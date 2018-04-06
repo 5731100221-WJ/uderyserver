@@ -1,0 +1,20 @@
+{
+  "name": "storereview",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "reviwtext": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

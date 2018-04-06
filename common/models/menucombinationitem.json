@@ -1,0 +1,29 @@
+{
+  "name": "menucombinationitem",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "ispay": {
+      "type": "boolean",
+      "default": false
+    },
+    "iscook": {
+      "type": "boolean",
+      "default": false
+    },
+    "isget": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
