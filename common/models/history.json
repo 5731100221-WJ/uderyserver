@@ -1,5 +1,5 @@
 {
-  "name": "historys",
+  "name": "history",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
