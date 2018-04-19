@@ -16,6 +16,9 @@
     "picture": {
       "type": "string"
     },
+    "rate":{
+      "type": "number"
+    },
     "storeownerID":{
       "type": "string"
     }
