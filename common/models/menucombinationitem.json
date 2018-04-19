@@ -30,7 +30,7 @@
     "proteinitems": {
       "type": "hasAndBelongsToMany",
       "model": "proteinitem",
-      "foreignKey": ""
+      "foreignKey": "proteinitemId"
     },
     "menuList": {
       "type": "belongsTo",
@@ -40,12 +40,12 @@
     "menuitems": {
       "type": "hasAndBelongsToMany",
       "model": "menuitem",
-      "foreignKey": ""
+      "foreignKey": "menuitemId"
     },
     "toppingitems": {
       "type": "hasAndBelongsToMany",
       "model": "toppingitem",
-      "foreignKey": ""
+      "foreignKey": "toppingitemId"
     }
   },
   "acls": [],
