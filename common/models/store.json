@@ -56,6 +56,11 @@
       "type": "hasMany",
       "model": "toppingitem",
       "foreignKey": ""
+    },
+    "history": {
+      "type": "hasMany",
+      "model": "history",
+      "foreignKey": ""
     }
   },
   "acls": [],

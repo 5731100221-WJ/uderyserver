@@ -44,6 +44,11 @@
       "type": "hasMany",
       "model": "storereview",
       "foreignKey": ""
+    },
+    "history": {
+      "type": "hasMany",
+      "model": "history",
+      "foreignKey": ""
     }
   },
   "acls": [],
