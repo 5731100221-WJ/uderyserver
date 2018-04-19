@@ -20,6 +20,9 @@
     "isget": {
       "type": "boolean",
       "default": false
+    },
+    "orderlistID": {
+      "type": "string"
     }
   },
   "validations": [],

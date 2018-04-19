@@ -1,16 +1,15 @@
 {
-  "name": "orderlist",
+  "name": "historys",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "date": {
-      "type": "date",
-      "required": true
+    "menucombinationitemID": {
+      "type": "string"
     },
-    "userID": {
+    "registeruserID":{
       "type": "string"
     },
     "storeID": {
@@ -19,7 +18,7 @@
   },
   "validations": [],
   "relations": {
-    "registerCustommer": {
+    "menucombinationitems": {
       "type": "belongsTo",
       "model": "registerCustommer",
       "foreignKey": ""

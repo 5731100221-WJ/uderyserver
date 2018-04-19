@@ -16,6 +16,9 @@
     },
     "picture": {
       "type": "string"
+    },
+    "menulistID": {
+      "type": "string"
     }
   },
   "validations": [],

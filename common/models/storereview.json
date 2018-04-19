@@ -11,6 +11,9 @@
     },
     "rate": {
       "type": "number"
+    },
+    "storeID":{
+      "type": "string"
     }
   },
   "validations": [],

@@ -15,6 +15,9 @@
     },
     "picture": {
       "type": "string"
+    },
+    "storeownerID":{
+      "type": "string"
     }
   },
   "validations": [],

@@ -5,7 +5,11 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "storeID": {
+      "type": "string"
+    }
+  },
   "validations": [],
   "relations": {
     "stores": {
