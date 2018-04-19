@@ -12,7 +12,7 @@
     "rate": {
       "type": "number"
     },
-    "storeID":{
+    "storeID": {
       "type": "string"
     }
   },

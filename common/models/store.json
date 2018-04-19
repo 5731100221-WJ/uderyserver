@@ -16,10 +16,10 @@
     "picture": {
       "type": "string"
     },
-    "rate":{
+    "rate": {
       "type": "number"
     },
-    "storeownerID":{
+    "storeownerID": {
       "type": "string"
     }
   },

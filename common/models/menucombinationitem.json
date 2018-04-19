@@ -28,7 +28,7 @@
   "validations": [],
   "relations": {
     "proteinitems": {
-      "type": "hasMany",
+      "type": "hasAndBelongsToMany",
       "model": "proteinitem",
       "foreignKey": ""
     },
@@ -38,12 +38,12 @@
       "foreignKey": ""
     },
     "menuitems": {
-      "type": "hasMany",
+      "type": "hasAndBelongsToMany",
       "model": "menuitem",
       "foreignKey": ""
     },
     "toppingitems": {
-      "type": "hasMany",
+      "type": "hasAndBelongsToMany",
       "model": "toppingitem",
       "foreignKey": ""
     }
