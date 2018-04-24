@@ -8,9 +8,9 @@
     "port": 27017,
     "url": "",
     "database": "udery",
-    "password": "",
+    "password": "superPassword",
     "name": "mongoDs",
-    "user": "",
+    "user": "superAdmin",
     "connector": "mongodb"
   }
 }
