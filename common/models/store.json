@@ -18,9 +18,6 @@
     },
     "rate": {
       "type": "number"
-    },
-    "storeownerID": {
-      "type": "string"
     }
   },
   "validations": [],
