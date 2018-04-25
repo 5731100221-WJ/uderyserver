@@ -61,6 +61,11 @@
       "type": "hasMany",
       "model": "history",
       "foreignKey": ""
+    },
+    "menucombinationitems": {
+      "type": "hasMany",
+      "model": "menucombinationitem",
+      "foreignKey": ""
     }
   },
   "acls": [],

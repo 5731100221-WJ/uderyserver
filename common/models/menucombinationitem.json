@@ -54,6 +54,11 @@
       "type": "hasAndBelongsToMany",
       "model": "orderlist",
       "foreignKey": ""
+    },
+    "store": {
+      "type": "belongsTo",
+      "model": "store",
+      "foreignKey": ""
     }
   },
   "acls": [],
