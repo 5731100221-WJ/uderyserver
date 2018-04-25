@@ -28,6 +28,11 @@
       "type": "belongsTo",
       "model": "store",
       "foreignKey": ""
+    },
+    "menucombinationitems": {
+      "type": "hasMany",
+      "model": "menucombinationitem",
+      "foreignKey": ""
     }
   },
   "acls": [],

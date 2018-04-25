@@ -46,6 +46,11 @@
       "type": "belongsTo",
       "model": "toppingitem",
       "foreignKey": "toppingitemId"
+    },
+    "orderlists": {
+      "type": "hasAndBelongsToMany",
+      "model": "orderlist",
+      "foreignKey": ""
     }
   },
   "acls": [],
