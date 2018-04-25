@@ -23,6 +23,9 @@
     },
     "orderlistID": {
       "type": "string"
+    },
+    "storeID": {
+      "type": "string"
     }
   },
   "validations": [],
