@@ -49,11 +49,6 @@
       "model": "storereview",
       "foreignKey": ""
     },
-    "menucombinationitem": {
-      "type": "hasMany",
-      "model": "menucombinationitem",
-      "foreignKey": "menucombinationitemId"
-    },
     "history": {
       "type": "hasMany",
       "model": "history",
