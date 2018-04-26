@@ -55,12 +55,24 @@
       "model": "orderlist",
       "foreignKey": ""
     },
+    "registerCustommer": {
+      "type": "belongsTo",
+      "model": "registerCustommer",
+      "foreignKey": "registerCustommerId"
+    },
     "store": {
       "type": "belongsTo",
       "model": "store",
       "foreignKey": ""
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+  ],
   "methods": {}
 }
