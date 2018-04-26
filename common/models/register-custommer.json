@@ -53,6 +53,11 @@
       "type": "hasMany",
       "model": "history",
       "foreignKey": ""
+    },
+    "menucombinationitem": {
+      "type": "hasMany",
+      "model": "menucombinationitem",
+      "foreignKey": ""
     }
   },
   "acls": [
