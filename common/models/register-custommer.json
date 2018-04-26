@@ -35,6 +35,10 @@
     },
     "facebook": {
       "type": "string"
+    },
+    "picture": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
