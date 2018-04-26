@@ -21,12 +21,6 @@
       "type": "boolean",
       "default": false
     },
-    "orderlistID": {
-      "type": "string"
-    },
-    "storeID": {
-      "type": "string"
-    }
   },
   "validations": [],
   "relations": {
