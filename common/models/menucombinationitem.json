@@ -24,6 +24,10 @@
     "price":{
       "type": "number",
       "default": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],
