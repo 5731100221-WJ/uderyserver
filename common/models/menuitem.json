@@ -1,0 +1,39 @@
+{
+  "name": "menuitem",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "picture": {
+      "type": "string"
+    },
+    "menulistID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "menucombinationitems": {
+      "type": "hasAndBelongsToMany",
+      "model": "menucombinationitem",
+      "foreignKey": ""
+    },
+    "store": {
+      "type": "belongsTo",
+      "model": "store",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

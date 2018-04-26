@@ -1,0 +1,34 @@
+{
+  "name": "history",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "menucombinationitemID": {
+      "type": "string"
+    },
+    "registeruserID": {
+      "type": "string"
+    },
+    "storeID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "registerCustommer": {
+      "type": "belongsTo",
+      "model": "registerCustommer",
+      "foreignKey": ""
+    },
+    "store": {
+      "type": "belongsTo",
+      "model": "store",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
